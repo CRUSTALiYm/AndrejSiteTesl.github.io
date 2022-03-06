@@ -25,9 +25,10 @@ a:hover {
 	color: #FF6347;
 }
 section {
+	position: -webkit-sticky;
 	position: sticky;
 	padding: 15px;
-	margin: 15px auto 15px 0px;
+	margin: 15px auto 15px 2px;
 	width: 345px;
 	background: #CD853F;
 	left: 20px;
@@ -79,5 +80,7 @@ a {
 	color: #FF4500;
 }
 section div {
+	position: -webkit-sticky;
+	position: static;
 	height: auto;
 }
