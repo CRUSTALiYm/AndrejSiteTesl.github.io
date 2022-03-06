@@ -26,12 +26,12 @@ a:hover {
 }
 section {
 	position: sticky;
+	height: auto;
 	padding: 15px;
 	margin: 15px 0px 15px 0px;
-	width: 340px;
+	width: 345px;
 	background: #CD853F;
 	left: 20px;
-	height: auto;
 }
 section a {
 	position: absolute;
@@ -78,4 +78,7 @@ section a:hover {
 a {
 	text-decoration: none;
 	color: #FF4500;
+}
+section div {
+	height: auto;
 }
