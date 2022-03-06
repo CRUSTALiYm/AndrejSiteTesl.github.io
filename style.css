@@ -31,6 +31,7 @@ section {
 	width: 340px;
 	background: #CD853F;
 	left: 20px;
+	height: auto;
 }
 section a {
 	position: absolute;
@@ -49,7 +50,7 @@ section a:hover {
 	position: sticky;
 	background: #ADFF2F;
 	width: 70%;
-	height: 15px;
+	height: auto;
 	padding: 7px;
 	margin: 10px auto 23px;
 }
@@ -58,6 +59,7 @@ section a:hover {
 	position: sticky;
 	background:#D3D3D3;
 	width: 68.5%;
+	height: auto;
 	padding: 10px;
 	margin: 10px auto 23px;
 	border: dashed #D2691E;
