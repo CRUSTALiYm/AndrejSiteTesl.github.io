@@ -58,7 +58,7 @@ section a:hover {
 	position: sticky;
 	background:#D3D3D3;
 	width: 68.5%;
-	height: 1500px;
+	height: auto;
 	padding: 10px;
 	margin: 10px auto 23px;
 	border: dashed #D2691E;
@@ -68,7 +68,7 @@ section a:hover {
 	position: sticky;
 	background: #00FA9A;
 	width: 70%;
-	height: 15px;
+	height: auto;
 	padding: 7px;
 	margin: 10px auto 15px;
 	border-radius: 9px;
