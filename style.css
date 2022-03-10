@@ -8,7 +8,9 @@
 	display: flex;
 	border: inset;
 	min-width: 300px;
-
+}
+body {
+	background: #292e30;
 }
 .zz {
 	color: grey;
@@ -25,6 +27,9 @@ a {
 footer {
 	position: fixed;
 	top: 96.6%;
+	width: 20%;
+	margin: 5px;
+	padding: 3px;
 }
 .razd {
 	background: #FFA07A;
@@ -33,7 +38,7 @@ footer {
 	margin: 63px 60px 30px 60px;
 	padding: 7px 0;
 	height: auto;
-	min-width: 120px;
+	min-width: 200px;
 	font-size: 20px;
 	border: dotted 2px #00FF00;
 }
@@ -50,7 +55,7 @@ a:hover {
 	max-width: 700px;
 	padding: 6px 10px;
 	margin: 3px 70px 5px;
-	min-width: 120px;
+	min-width: 180px;
 	height: auto;
 	border: groove #00FF00;
 }
@@ -84,12 +89,13 @@ a:hover {
 .ct {
 	position: relative;
 	margin: 7px;
-	width: 95%;
+	width: 96.5%;
 	min-height: 55px;
 	background: #1E90FF;
 	border-radius: 10px;
 	padding: 2px;
 	height: auto;
+	min-width: 300px
 
 }
 .d-ct {
@@ -113,8 +119,12 @@ a:hover {
 	padding: 2px;
 	font-size: 17px;
 	background: #1E90FF;
+	border-radius: 10px;
 }
 .z-ct-1 {
 	margin: 15px 0px;
 	border-radius: 3px;
+}
+.z-ct {
+	margin-left: 25px;
 }
