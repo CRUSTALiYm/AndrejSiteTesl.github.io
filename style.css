@@ -10,7 +10,7 @@
 	min-width: 300px;
 }
 body {
-	background: #292e30;
+	background: rgb(0, 0, 0, .75);
 }
 .zz {
 	color: grey;
@@ -27,9 +27,6 @@ a {
 footer {
 	position: fixed;
 	top: 96.6%;
-	width: 20%;
-	margin: 5px;
-	padding: 3px;
 }
 .razd {
 	background: #FFA07A;
