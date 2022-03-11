@@ -121,7 +121,7 @@ a:hover {
 	border: double lime;
 }
 .ct {
-	position: relative;
+	position: static;
 	margin: 7px 1px 15px 1px;
 	width: 99.5%;
 	min-height: 55px;
