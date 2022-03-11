@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Open+Sans:ital,wght@0,300;1,300&family=Work+Sans:ital,wght@0,300;1,300&display=swap');
 .header_nav, .header-div {
-	position: fixed;
+	position: static;
 	background: #F1F1ED;
 	height: 50px;
 	width: 100%;
