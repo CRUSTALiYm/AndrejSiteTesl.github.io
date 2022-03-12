@@ -66,6 +66,7 @@ footer {
 	font-family: 'Open Sans', sans-serif;
 }
 .s-razd {
+        display: block;
 	color: #e0e6f0;
 	font-size: 18px;
 	margin: 10px 0px 11px 4px;
