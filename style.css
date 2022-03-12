@@ -74,7 +74,7 @@ footer {
         transition: 0.5s ease-out;
 }
 .s-razd:hover {
-transform: translate(7px);
+transform: translate(20px);
 }
 .s-razd a {
 	color: #e0e6f0;
