@@ -71,15 +71,14 @@ footer {
 	margin: 10px 0px 11px 4px;
 	padding: 3px;
 	text-align: center;
+        transition: 0.3s;
 }
 .s-razd a {
 	color: #e0e6f0;
 }
-.s-razd:hover {
-	margin: 0px 0px 0px 5px;
-}
 .s-razd a:hover {
 	color: #c9f9f9;
+        transform: translateX(6px);
 }
 a:hover {
 	text-decoration: underline;
