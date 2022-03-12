@@ -73,11 +73,13 @@ footer {
 	text-align: center;
         transition: 0.5s ease-out;
 }
+.s-razd:hover {
+transform: translate(7px);
+}
 .s-razd a {
 	color: #e0e6f0;
 }
 .s-razd a:hover {
-        transform: translate (6px, 0px);
 	color: #c9f9f9;
 }
 a:hover {
