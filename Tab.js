@@ -1,5 +1,5 @@
 (function () {
-   var app = "https://script.google.com/macros/s/AKfycbzngb-5a3tDdHJ445o5LxqeN63V_ihhF_Nxlkz3gxLyMeG3MA/exec",
+   var app = "https://script.google.com/macros/s/AKfycbw7W0LQVnxx6nwAIPAYbLCxPpaRPSIYpaFN7DaGGaNOhtVK9bs/exec",
       output = '',
       xhr = new XMLHttpRequest();
    xhr.open('GET', app);
