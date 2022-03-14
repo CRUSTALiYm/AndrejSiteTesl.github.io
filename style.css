@@ -159,3 +159,35 @@ a:hover {
 	margin-left: 25px;
 	font-size: 20px;
 }
+.cts-l li {
+	padding: 1.5px 0;
+	cursor: default;
+}
+.cts-l li:hover, .cts-d dd:hover {
+	color: #c9f0c0;
+}
+.cts-l li::marker {
+	color: rgb(255, 69, 0, .75);
+}
+.cts-d dd {
+	cursor: default;
+	margin: 3px 0 3px 10px;
+	border-bottom: 0.3px solid rgb(0, 0, 0, .25);
+}
+dd:empty::before {
+  content: "Не найдено";
+  color: darkgray;
+  border: ;
+}
+.cts-d dt:hover {
+	color: #f9f0c0;
+	cursor: default;
+}
+.cts-d dd:hover {
+	border-bottom: 0.3px solid rgb(47, 79, 79);
+}
+.cts-d dt {
+	margin: 8.5px 0 5.5px 0;
+	font-size: 16.5px;
+	color: #B0C4DE;
+}
