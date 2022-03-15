@@ -159,17 +159,20 @@ a:hover {
 	margin-left: 25px;
 	font-size: 20px;
 }
-.cts-l li {
+.cts-l li, .cts-d li {
 	padding: 1.5px 0;
 	cursor: default;
 }
-.cts-l li:hover, .cts-d dd:hover {
+.cts-d li {
+	padding: 2px 0;
+}
+.cts-l li:hover, .cts-d dd:hover, .cts-d li:hover, .cts-d-op li:hover {
 	color: #c9f0c0;
 }
-.cts-l li::marker {
+.cts-l li::marker, .cts-d li::marker {
 	color: rgb(255, 69, 0, .75);
 }
-.cts-d dd {
+.cts-d dd,  {
 	cursor: default;
 	margin: 3px 0 3px 10px;
 	border-bottom: 0.3px solid rgb(0, 0, 0, .25);
@@ -190,4 +193,37 @@ dd:empty::before {
 	margin: 8.5px 0 5.5px 0;
 	font-size: 16.5px;
 	color: #B0C4DE;
+}
+li:empty::before {
+  content: "Не найдено";
+  color: darkgray;
+  border: ;
+}
+.cts-dliz li::marker {
+	color: #32CD32;
+}
+.cts-d-op li::marker {
+	color: #FFA07A;
+}
+.perevod {
+	cursor: default;
+	table-layout: fixed;
+	border-collapse: collapse;
+	text-align: center;
+	font-size: 15px;
+	height: auto;
+	margin: 3px 2px 5px 0;
+	min-width: 200px;
+	display: inline-block;
+}
+.perevod td {
+	border: 1.5px solid #4682B4;
+	padding: 3px;
+	color: #FFB6C1;
+}
+.perevod caption {
+	color: #F0E68C;
+}
+.perevod tr:hover {
+	background: rgb(0, 0, 0, .2);
 }
