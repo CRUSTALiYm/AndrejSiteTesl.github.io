@@ -168,6 +168,7 @@ a:hover {
 }
 .cts-l li:hover, .cts-d dd:hover, .cts-d li:hover, .cts-d-op li:hover {
 	color: #c9f0c0;
+	cursor: default;
 }
 .cts-l li::marker, .cts-d li::marker {
 	color: rgb(255, 69, 0, .75);
@@ -218,7 +219,7 @@ li:empty::before {
 }
 .perevod td {
 	border: 1.5px solid #4682B4;
-	padding: 3px;
+	padding: 2px;
 	color: #FFB6C1;
 }
 .perevod caption {
